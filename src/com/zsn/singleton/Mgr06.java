@@ -10,7 +10,7 @@ package com.zsn.singleton;
  * @Date: 2020/5/4 14:36
  */
 public class Mgr06 {
-    private static volatile Mgr06 INSTANCE ;//不加 volatile ， JIT 优化时 会出问题 （重排？？ ）
+    private static volatile Mgr06 INSTANCE ;//不加 volatile ， JIT 优化时 会出问题 （指令重排的问题 ）
 
     //    重点，不让别人用的构造
     private Mgr06() {
