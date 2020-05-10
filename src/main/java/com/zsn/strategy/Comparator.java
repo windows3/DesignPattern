@@ -6,11 +6,11 @@ package com.zsn.strategy;
  * @Author: zsn
  * @Date: 2020/5/4 19:08
  */
-@FunctionalInterface
+//@FunctionalInterface
 public interface Comparator<T> {
     int compareTo(T o1, T o2);
 
-    default void m(){
-        System.out.println("m");
-    }
+//    default void m(){
+//        System.out.println("m");
+//    }
 }

@@ -31,11 +31,11 @@ public class Mgr04 {
 
 //    这个是测试多线程 ，测试多线程访问时的影响
     public static void main(String[] args) {
-        for (int i =0 ;i<100;i++){
-            new Thread(()->{//只有一个方法时，可以间歇
-                System.out.println(Mgr04.getInstance().hashCode());
-            }).start();
-        }
+//        for (int i =0 ;i<100;i++){
+//            new Thread(()->{//只有一个方法时，可以间歇
+//                System.out.println(Mgr04.getInstance().hashCode());
+//            }).start();
+//        }
     }
 
 
