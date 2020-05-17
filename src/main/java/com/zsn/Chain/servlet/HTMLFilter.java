@@ -9,7 +9,8 @@ import com.sun.deploy.nativesandbox.comm.Response;
  */
 public class HTMLFilter implements MyFilter {
 
-    public boolean doFilter(Request request, Response response) {
+    public boolean doFilter(Request request, Response response,FilterChain filterChain) {
+        request.setPath1("HTMLFilter");
 
         return false;
     }

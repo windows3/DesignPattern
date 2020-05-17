@@ -19,9 +19,9 @@ public class FilterChain implements MyFilter {
         return this;
     }
 
-    public boolean doFilter(Request request, Response response) {
+    public boolean doFilter(Request request, Response response,FilterChain filterChain) {
         for (MyFilter filter : filters) {
-            if (!filter.doFilter(request,response)) return false;
+            if (!filter.doFilter(request,response, filterChain)) return false;
 
 
         }

@@ -8,7 +8,7 @@ import com.sun.deploy.nativesandbox.comm.Response;
  * @Date: 2020/5/10 23:33
  */
 public interface MyFilter {
-    boolean doFilter(Request request, Response response);
+    boolean doFilter(Request request, Response response,FilterChain filterChain);
 
 
 }

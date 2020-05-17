@@ -10,7 +10,8 @@ import com.sun.deploy.nativesandbox.comm.Response;
  */
 public class URLFilter implements MyFilter {
 
-    public boolean doFilter(Request request, Response response) {
+    public boolean doFilter(Request request, Response response,FilterChain filterChain) {
+
 
         return false;
     }
