@@ -1,8 +1,6 @@
-package com.zsn.interator.v5;
+package com.zsn.iterator.v5;
 
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 
 /**
  * 相比数组，这个容器不用考虑边界问题，可以动态扩展

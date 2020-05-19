@@ -1,4 +1,4 @@
-package com.zsn.interator.v3;
+package com.zsn.iterator.v4;
 
 
 /**
@@ -22,4 +22,5 @@ class ArrayList_ implements Collection_ {
     public int size() {
         return index;
     }
+
 }

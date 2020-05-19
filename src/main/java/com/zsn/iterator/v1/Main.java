@@ -1,4 +1,4 @@
-package com.zsn.interator.v1;
+package com.zsn.iterator.v1;
 
 /**
  * @Author: zsn

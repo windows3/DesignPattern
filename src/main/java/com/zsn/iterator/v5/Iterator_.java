@@ -1,4 +1,4 @@
-package com.zsn.interator.v5;
+package com.zsn.iterator.v5;
 
 public interface Iterator_ {
     boolean hasNext();

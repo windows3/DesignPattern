@@ -1,4 +1,4 @@
-package com.zsn.interator.v3;
+package com.zsn.iterator.v7;
 
 /**
  * 相比数组，这个容器不用考虑边界问题，可以动态扩展
@@ -34,5 +34,10 @@ class LinkedList_ implements Collection_ {
 
     public int size() {
         return size;
+    }
+
+    @Override
+    public Iterator_ iterator() {
+        return null;
     }
 }

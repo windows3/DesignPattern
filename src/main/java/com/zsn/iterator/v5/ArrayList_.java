@@ -1,4 +1,4 @@
-package com.zsn.interator.v4;
+package com.zsn.iterator.v5;
 
 
 /**
@@ -22,5 +22,29 @@ class ArrayList_ implements Collection_ {
     public int size() {
         return index;
     }
+
+    @Override
+    public Iterator_ iterator() {
+        return new ArrayListIterator();
+    }
+
+    private class ArrayListIterator implements Iterator_{
+
+        private int currentIndex = 0;
+
+        @Override
+        public boolean hasNext() {
+            if(currentIndex >= index) return false;
+            return true;
+        }
+
+        @Override
+        public Object next() {
+            Object o = objects[currentIndex];
+            currentIndex ++;
+            return o;
+        }
+    }
+
 
 }

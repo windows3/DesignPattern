@@ -1,4 +1,4 @@
-package com.zsn.interator.v7;
+package com.zsn.iterator.v7;
 
 public interface Iterator_<E> { //Element //Type //K //Value V Tank
     boolean hasNext();

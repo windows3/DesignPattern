@@ -1,4 +1,4 @@
-package com.zsn.interator.v6;
+package com.zsn.iterator.v6;
 
 import java.util.ArrayList;
 import java.util.Collection;
