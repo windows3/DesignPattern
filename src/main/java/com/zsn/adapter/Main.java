@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
 /**
- * 转接头
+ * 转接头,适配器模式
  */
 
 public class Main {
@@ -19,6 +19,7 @@ public class Main {
         }
         br.close();
 
+//        java.awt.event.WindowListener
 
     }
 }
