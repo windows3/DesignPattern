@@ -16,6 +16,7 @@ public class Test {
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
             }
+
         });
     }
 }
