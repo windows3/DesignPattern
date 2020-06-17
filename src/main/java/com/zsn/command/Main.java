@@ -23,6 +23,7 @@ public class Main {
         deleteCommand.doit();
         deleteCommand.undo();
 
+//        最简单的责任链 + command
         List<Command> commands = new ArrayList<Command>();
         commands.add(new InsertCommand(c));
         commands.add(new CopyCommand(c));
